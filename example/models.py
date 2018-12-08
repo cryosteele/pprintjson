@@ -1,8 +1,6 @@
 from django.db import models
 from django_mysql.models import JSONField
 
-#Add Comment Here
-
 
 class Variables(models.Model):
     id = models.BigAutoField(primary_key=True, editable=False)
